@@ -15,9 +15,10 @@
       href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap"
       rel="stylesheet"
     />
+    <!-- <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script> -->
   </head>
   <body>
-    <section class="main-banner">
+    <section class="main-banner" id="main-banner">
       <img src="./imgs/logo.png" alt="Barber" class="main-logo" />
       <div class="banner-text">
         <h1>HAIR STUDIO</h1>
@@ -31,11 +32,11 @@
     <div class="main-nav">
       <nav>
         <ul>
-          <li><a href="">HOME</a></li>
-          <li><a href="">FEATURES</a></li>
-          <li><a href="">SERVICES</a></li>
-          <li><a href="">TESTIMONIALS</a></li>
-          <li><a href="">MEET US</a></li>
+          <li><a href="#main-banner">HOME</a></li>
+          <li><a href="#feature">FEATURES</a></li>
+          <li><a href="#service">SERVICES</a></li>
+          <li><a href="#testimonial">TESTIMONIALS</a></li>
+          <li><a href="#footer">MEET US</a></li>
         </ul>
       </nav>
     </div>
@@ -43,7 +44,7 @@
       <img src="./imgs/menu.png" alt="menu" class="burger-menu-img" />
     </div>
 
-    <section class="feature">
+    <section class="feature" id="feature">
       <div class="feature-title-text">
         <p>FEATURES</p>
         <h1>Why Choose Us</h1>
@@ -69,7 +70,7 @@
       </div>
     </section>
     <!-- Service section -->
-    <section class="service">
+    <section class="service" id="service">
       <div class="feature-title-text">
         <p>SERVICES</p>
         <h1>We Provide Better</h1>
@@ -114,7 +115,7 @@
       </div>
     </section>
     <!-- Testimonial -->
-    <section class="testimonial">
+    <section class="testimonial" id="testimonial">
       <div class="feature-title-text">
         <p>TESTIMONIAL</p>
         <h1>What Client Says</h1>
@@ -122,7 +123,7 @@
       <div class="testimonial-row">
         <div class="testimonial-col">
           <div class="user">
-            <img src="./imgs/img-1.jpg" alt="">
+            <img src="./imgs/img-1.jpg" alt="" />
             <div class="user-info">
               <h4>KEN NORMAN <i class="fa fa-twitter"></i></h4>
               <small>@kennorman</small>
@@ -135,7 +136,7 @@
         </div>
         <div class="testimonial-col">
           <div class="user">
-            <img src="./imgs/img-2.jpg" alt="">
+            <img src="./imgs/img-2.jpg" alt="" />
             <div class="user-info">
               <h4>Liara Karian <i class="fa fa-twitter"></i></h4>
               <small>@liarakarian</small>
@@ -148,7 +149,7 @@
         </div>
         <div class="testimonial-col">
           <div class="user">
-            <img src="./imgs/img-3.jpg" alt="">
+            <img src="./imgs/img-3.jpg" alt="" />
             <div class="user-info">
               <h4>Ricky Danial <i class="fa fa-twitter"></i></h4>
               <small>@rickydanial</small>
@@ -159,8 +160,32 @@
       </div>
     </section>
     <!-- foooter -->
-    <section>
-      
+    <section class="footer" id="footer">
+      <img src="./imgs/footer-img.png" class="footer-img" />
+      <div class="feature-title-text">
+        <p>CONTACT</p>
+        <h1>Visit Shop Today</h1>
+      </div>
+      <div class="footer-row">
+        <div class="footer-left">
+          <h1>Opening Hours</h1>
+          <p><i class="fa fa-clock-o"></i>Monday to Friday - 9am to 9pm</p>
+          <p><i class="fa fa-clock-o"></i>Saturday and Sunday - 8am to 11pm</p>
+        </div>
+        <div class="footer-right">
+          <h1>Get In Touch</h1>
+          <p>Yerevan, Komitas st. 33<i class="fa fa-map-marker"></i></p>
+          <p>barbershop@website.com<i class="fa fa-paper-plane"></i></p>
+          <p>+374 55 858585<i class="fa fa-phone"></i></p>
+        </div>
+      </div>
+      <div class="social-links">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-youtube"></i>
+        <p>Copyright Anthony</p>
+      </div>
     </section>
     <script src="./index.js"></script>
   </body>
