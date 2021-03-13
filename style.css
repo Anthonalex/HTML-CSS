@@ -73,3 +73,52 @@
 .banner-btn a:hover {
   color: #000;
 }
+
+.main-nav {
+  position: fixed;
+  width: 250px;
+  height: 100%;
+  right: -250px;
+  top: 0;
+  background: #126f64;
+  z-index: 2;
+  transition: 0.5s;
+}
+
+nav ul li {
+  margin: 50px 20px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu-btn-burger {
+  width: 50px;
+  height: 50px;
+  background: #126f64;
+  text-align: center;
+  position: fixed;
+  right: 30px;
+  top: 20px;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.menu-btn-burger img {
+  width: 20px;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 770px) {
+  .banner-text h1 {
+    font-size: 44px;
+  }
+
+  .banner-btn a {
+    display: block;
+    margin-bottom: 20px;
+  }
+}
