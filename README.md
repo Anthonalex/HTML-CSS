@@ -8,4 +8,4 @@ this is my first html-css-js project
 ## includes 
 - `flex display`
 - `burger-menu`
-- `js and css link action`
+- `js and css linked action`
